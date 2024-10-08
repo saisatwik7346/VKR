@@ -1,3 +1,6 @@
+#simple program
+
+
 import unittest
 
 def multiply(a, b):
@@ -39,6 +42,7 @@ class MultiplyTestCase(unittest.TestCase):
        result = multiply(-3, 0)
 
        self.assertEqual(result,0)
+      
        
    def test_6(self):
 
